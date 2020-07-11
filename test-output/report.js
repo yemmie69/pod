@@ -53,42 +53,42 @@ formatter.match({
   "location": "productStep.user_visit_https_checkout_pod_point_com()"
 });
 formatter.result({
-  "duration": 4535270728,
+  "duration": 6028262132,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_mitsubishi_and_outlander_in_the_select_your_car_fields()"
 });
 formatter.result({
-  "duration": 1000301934,
+  "duration": 1427432459,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_check_the_box_i_am_not_eligible_to_claim_the_dealership_discount_as_i_did_not_come_through_a_dedicated_dealership()"
 });
 formatter.result({
-  "duration": 1389079973,
+  "duration": 1442915357,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_the_universal_socket_option()"
 });
 formatter.result({
-  "duration": 2211768109,
+  "duration": 2116424284,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_power_rating()"
 });
 formatter.result({
-  "duration": 7452471880,
+  "duration": 7032072465,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_a_random_compatible_extra()"
 });
 formatter.result({
-  "duration": 246502186,
+  "duration": 292610768,
   "status": "passed"
 });
 formatter.match({
@@ -101,7 +101,7 @@ formatter.match({
   "location": "productStep.the_total_price_at_the_bottom_right_of_the_screen_should_correctly_match_the_kw_unit_price_the_compatible_extra_price(int)"
 });
 formatter.result({
-  "duration": 5181094360,
+  "duration": 5170247021,
   "status": "passed"
 });
 });
