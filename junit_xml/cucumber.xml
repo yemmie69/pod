@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.090593">
+<testcase classname="Products" name="Title of your scenario" time="24.090593">
+<system-out><![CDATA[Given user visit https://checkout.pod-point.com/............................passed
+And user select Mitsubishi and Outlander in the Select Your Car fields......passed
+And user check the box ‘I am NOT eligible to claim the dealership discount as I did not come through a dedicated dealership’.passed
+When user select the ‘Universal Socket’ option..............................passed
+And user select power rating................................................passed
+And user select a random compatible extra...................................passed
+Then the total price at the bottom right of the screen should correctly match the 7kw unit price + the compatible extra price.passed
+]]></system-out>
+</testcase>
+</testsuite>
