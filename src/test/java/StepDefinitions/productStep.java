@@ -72,17 +72,22 @@ public class productStep extends TestBase{
 	@When("user select a random compatible extra")
 	public void user_select_a_random_compatible_extra() {
 		
-		// Click cokkies
+		// Click cookies
 		CompatibleExtrasPage.clickCookieButton();
 		
-		
-		// get all products whose quanity >0
+		//6 compatible extras count
+  		List<WebElement> extras = driver.findElements(By.xpath("//div[@class=\"grid__col grid__col-md-4 grid__col-lg-4\"]"));
+  	    System.out.println("Number of extras:" +extras.size());
+  	   
+  	    
+  	  
+		// get all products whose quantity >0
 	    List<WebElement> productElems = driver.findElements(By.xpath("//div[@class=\"grid__col grid__col-md-4 grid__col-lg-4\"]"));
 	    
-	    // get the len of productElems
+	    // get the length of productElems
 	    int maxProducts = productElems.size();
-
-	    // get random number
+	    
+	    // Click random extras
 	    Random random = new Random();
 	    int randomProduct = random.nextInt(maxProducts);
 
@@ -92,13 +97,6 @@ public class productStep extends TestBase{
 	   String product= productElems.get(randomProduct).getText();
 	   
 	   
-	    
-	    System.out.println(product);
-	    
-	    String randomPrice = driver.findElement(By.xpath("//p[@class=\"h4\"]")).getText();
-	    System.out.println(randomPrice);
-	    
-	    
 	    }
 
 	@Then("the total price at the bottom right of the screen should correctly match the 7kw unit price + the compatible extra price")
