@@ -63,35 +63,35 @@ formatter.match({
   "location": "productStep.user_visit_https_checkout_pod_point_com()"
 });
 formatter.result({
-  "duration": 6916857029,
+  "duration": 4909834082,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_mitsubishi_and_outlander_in_the_select_your_car_fields()"
 });
 formatter.result({
-  "duration": 1492243499,
+  "duration": 1040775778,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_check_the_box_i_am_not_eligible_to_claim_the_dealership_discount_as_i_did_not_come_through_a_dedicated_dealership()"
 });
 formatter.result({
-  "duration": 1819879755,
+  "duration": 1559002149,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_the_universal_socket_option()"
 });
 formatter.result({
-  "duration": 1988882444,
+  "duration": 2275845239,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_power_rating()"
 });
 formatter.result({
-  "duration": 2013878686,
+  "duration": 2237501323,
   "status": "passed"
 });
 formatter.match({
@@ -112,7 +112,7 @@ formatter.match({
   "location": "productStep.user_check_the_prices_for_the_kw_unit_displayed_match_the_following_values_£_Full_Price_and_£_With_OLEV_Grant(int,int,int)"
 });
 formatter.result({
-  "duration": 81205863,
+  "duration": 85260900,
   "status": "passed"
 });
 formatter.match({
@@ -125,14 +125,14 @@ formatter.match({
   "location": "productStep.user_check_that_compatible_extras_are_shown(int)"
 });
 formatter.result({
-  "duration": 7297671463,
+  "duration": 7496639990,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_a_random_compatible_extra()"
 });
 formatter.result({
-  "duration": 284740893,
+  "duration": 5200118167,
   "status": "passed"
 });
 formatter.match({
@@ -145,7 +145,7 @@ formatter.match({
   "location": "productStep.the_total_price_at_the_bottom_right_of_the_screen_should_correctly_match_the_kw_unit_price_the_compatible_extra_price(int)"
 });
 formatter.result({
-  "duration": 120093,
+  "duration": 39052380,
   "status": "passed"
 });
 });

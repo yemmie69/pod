@@ -80,7 +80,6 @@ public class productStep extends TestBase {
 
 	@When("^user check that (\\d+) compatible extras are shown$")
 	public void user_check_that_compatible_extras_are_shown(int arg1) throws Throwable {
-		
 
 		// 6 compatible extras count
 		List<WebElement> extras = driver
@@ -112,11 +111,21 @@ public class productStep extends TestBase {
 		// Select the list item
 		productList.get(randomProduct).click();
 
+		Thread.sleep(5000);
+
 	}
 
 	@Then("^the total price at the bottom right of the screen should correctly match the (\\d+)kw unit price \\+ the compatible extra price$")
 	public void the_total_price_at_the_bottom_right_of_the_screen_should_correctly_match_the_kw_unit_price_the_compatible_extra_price(
 			int arg1) throws Throwable {
+
+		// 7KW price
+		int SevenKW = 879;
+		System.out.println(SevenKW);
+
+		// total
+		String total = driver.findElement(By.xpath("//h3[@class=\"p-b-none\"]")).getText();
+		System.out.println("total is " + total);
 
 	}
 

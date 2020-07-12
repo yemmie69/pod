@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.89548">
-<testcase classname="Products" name="Products check" time="21.89548">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.84403">
+<testcase classname="Products" name="Products check" time="24.84403">
 <system-out><![CDATA[Given user visit https://checkout.pod-point.com/............................passed
 And user select Mitsubishi and Outlander in the Select Your Car fields......passed
 And user check the box ‘I am NOT eligible to claim the dealership discount as I did not come through a dedicated dealership’.passed
