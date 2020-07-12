@@ -4,15 +4,15 @@
     "elements": [
       {
         "line": 3,
-        "name": "Title of your scenario",
+        "name": "Products check",
         "description": "",
-        "id": "products;title-of-your-scenario",
+        "id": "products;products-check",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 6028262132,
+              "duration": 6916857029,
               "status": "passed"
             },
             "line": 4,
@@ -24,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1427432459,
+              "duration": 1492243499,
               "status": "passed"
             },
             "line": 5,
@@ -36,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 1442915357,
+              "duration": 1819879755,
               "status": "passed"
             },
             "line": 6,
@@ -48,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2116424284,
+              "duration": 1988882444,
               "status": "passed"
             },
             "line": 7,
@@ -60,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 7032072465,
+              "duration": 2013878686,
               "status": "passed"
             },
             "line": 8,
@@ -72,10 +72,54 @@
           },
           {
             "result": {
-              "duration": 292610768,
+              "duration": 81205863,
               "status": "passed"
             },
             "line": 9,
+            "name": "user check the prices for the 7kw unit displayed match the following values £879 Full Price and £529 With OLEV Grant",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 30
+                },
+                {
+                  "val": "879",
+                  "offset": 77
+                },
+                {
+                  "val": "529",
+                  "offset": 97
+                }
+              ],
+              "location": "productStep.user_check_the_prices_for_the_kw_unit_displayed_match_the_following_values_£_Full_Price_and_£_With_OLEV_Grant(int,int,int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7297671463,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user check that 6 compatible extras are shown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "6",
+                  "offset": 16
+                }
+              ],
+              "location": "productStep.user_check_that_compatible_extras_are_shown(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 284740893,
+              "status": "passed"
+            },
+            "line": 11,
             "name": "user select a random compatible extra",
             "match": {
               "location": "productStep.user_select_a_random_compatible_extra()"
@@ -84,10 +128,10 @@
           },
           {
             "result": {
-              "duration": 5170247021,
+              "duration": 120093,
               "status": "passed"
             },
-            "line": 10,
+            "line": 12,
             "name": "the total price at the bottom right of the screen should correctly match the 7kw unit price + the compatible extra price",
             "match": {
               "arguments": [

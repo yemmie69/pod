@@ -8,9 +8,9 @@ formatter.feature({
 });
 formatter.scenario({
   "line": 3,
-  "name": "Title of your scenario",
+  "name": "Products check",
   "description": "",
-  "id": "products;title-of-your-scenario",
+  "id": "products;products-check",
   "type": "scenario",
   "keyword": "Scenario"
 });
@@ -41,11 +41,21 @@ formatter.step({
 });
 formatter.step({
   "line": 9,
-  "name": "user select a random compatible extra",
+  "name": "user check the prices for the 7kw unit displayed match the following values £879 Full Price and £529 With OLEV Grant",
   "keyword": "And "
 });
 formatter.step({
   "line": 10,
+  "name": "user check that 6 compatible extras are shown",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "user select a random compatible extra",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
   "name": "the total price at the bottom right of the screen should correctly match the 7kw unit price + the compatible extra price",
   "keyword": "Then "
 });
@@ -53,42 +63,76 @@ formatter.match({
   "location": "productStep.user_visit_https_checkout_pod_point_com()"
 });
 formatter.result({
-  "duration": 6028262132,
+  "duration": 6916857029,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_mitsubishi_and_outlander_in_the_select_your_car_fields()"
 });
 formatter.result({
-  "duration": 1427432459,
+  "duration": 1492243499,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_check_the_box_i_am_not_eligible_to_claim_the_dealership_discount_as_i_did_not_come_through_a_dedicated_dealership()"
 });
 formatter.result({
-  "duration": 1442915357,
+  "duration": 1819879755,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_the_universal_socket_option()"
 });
 formatter.result({
-  "duration": 2116424284,
+  "duration": 1988882444,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_power_rating()"
 });
 formatter.result({
-  "duration": 7032072465,
+  "duration": 2013878686,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "7",
+      "offset": 30
+    },
+    {
+      "val": "879",
+      "offset": 77
+    },
+    {
+      "val": "529",
+      "offset": 97
+    }
+  ],
+  "location": "productStep.user_check_the_prices_for_the_kw_unit_displayed_match_the_following_values_£_Full_Price_and_£_With_OLEV_Grant(int,int,int)"
+});
+formatter.result({
+  "duration": 81205863,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "6",
+      "offset": 16
+    }
+  ],
+  "location": "productStep.user_check_that_compatible_extras_are_shown(int)"
+});
+formatter.result({
+  "duration": 7297671463,
   "status": "passed"
 });
 formatter.match({
   "location": "productStep.user_select_a_random_compatible_extra()"
 });
 formatter.result({
-  "duration": 292610768,
+  "duration": 284740893,
   "status": "passed"
 });
 formatter.match({
@@ -101,7 +145,7 @@ formatter.match({
   "location": "productStep.the_total_price_at_the_bottom_right_of_the_screen_should_correctly_match_the_kw_unit_price_the_compatible_extra_price(int)"
 });
 formatter.result({
-  "duration": 5170247021,
+  "duration": 120093,
   "status": "passed"
 });
 });

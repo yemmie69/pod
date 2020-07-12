@@ -15,7 +15,7 @@ import cucumber.api.junit.Cucumber;
 					format={"pretty", "html:test-output", "json:json_output/cuccmber.json", "junit:junit_xml/cucumber.xml" ,"com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:path/report.html"},
 			monochrome = true,
 			strict = true
-//					dryRun = true
+			//		dryRun = true
 			
 			)
 
